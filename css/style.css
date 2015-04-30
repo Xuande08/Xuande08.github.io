@@ -9,18 +9,26 @@ hr		{border-color:#000000;
 			li:nth-child(even){background-color:#A3ABBF;
 }
 			ul {list-style-type:none;
+			font-size:18pt;
 }
 			a {color:#FFFFFF;
 }
 			
-
+.logo {margin-top:10px;
+}
 
 .content {background-color:#DBD2E0;
 		height:100%;
 		margin-left:5px;
-	
+		width: 77%;
+		float:right;
+		height:100%;
 }
 
 .menubar {background-color:#364670;
-		  padding-top:20px;
+		  padding:5px;
+		  width: 20%;
+}
+
+.body {margin:0% 5% 0% 5%;
 }
