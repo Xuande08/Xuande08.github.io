@@ -1,0 +1,26 @@
+body	{background-color:#FFF8D5;
+}
+
+hr		{border-color:#000000;
+}
+
+.everyother  li:nth-child(odd){background-color:#7782A0;
+}
+			li:nth-child(even){background-color:#A3ABBF;
+}
+			ul {list-style-type:none;
+}
+			a {color:#FFFFFF;
+}
+			
+
+
+.content {background-color:#DBD2E0;
+		height:100%;
+		margin-left:5px;
+	
+}
+
+.menubar {background-color:#364670;
+		  padding-top:20px;
+}
