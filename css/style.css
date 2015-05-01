@@ -31,12 +31,12 @@ button:active {
 
 .everyother  li:nth-child(odd){background-color:#2D3336;
 }
-			li:nth-child(even){background-color:#12212A;
+.everyother	li:nth-child(even){background-color:#12212A;
 }
-			ul {list-style-type:none;
+.everyother ul {list-style-type:none;
 			font-size:18pt;
 }
-			a {color:#FFFFFF;
+.everyother	a {color:#FFFFFF;
 }
 
 .everyother li:hover{background-color:#445561;
@@ -45,7 +45,7 @@ button:active {
 .logo {margin-top:10px;
 	   text-align:center;
 	   background: linear-gradient(#0F181E, #30383D); 
-	   height:50%;
+	   height:40%;
 	   
 }
 
@@ -71,10 +71,13 @@ button:active {
 }
 
 .maintext {background-color:#EDEDED;
-			height:20em;
+			height:18em;
 			margin:10px 10px 25px 10px;
 			border-color:#DBD2E0;
 			text-align:center;
+}
+
+.maintext p{font-size:16pt;
 }
 
 .maintext a:link {color:#000000;
