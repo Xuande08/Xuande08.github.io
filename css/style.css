@@ -49,6 +49,10 @@ button:active {
 	   
 }
 
+.textlist {margin:0% 35%;
+		  font-size:18pt;
+}
+
 .content {background-color:#434F56;
 		height:100%;
 		margin-left:5px;
@@ -60,7 +64,7 @@ button:active {
 		  padding: 10px 10px 0px 0px;
 		  width: 20%;
 		  text-align:center;
-		  height:27em;
+		  height:100%;
 }
 
 .body {margin:0% 5% 5% 5%;
@@ -71,10 +75,13 @@ button:active {
 }
 
 .maintext {background-color:#EDEDED;
-			height:18em;
+			height:100%;
 			margin:10px 10px 25px 10px;
 			border-color:#DBD2E0;
 			text-align:center;
+}
+
+p {display:inline-block;
 }
 
 .maintext p{font-size:16pt;
