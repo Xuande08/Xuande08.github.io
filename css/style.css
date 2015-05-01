@@ -1,7 +1,10 @@
-body	{background-color:#FFF8D5;
+body	{background-color:#455964;
 }
 
 hr		{border-color:#000000;
+}
+.headertext {text-align:center;
+			color:#FFFFFF;
 }
 
 .everyother  li:nth-child(odd){background-color:#7782A0;
@@ -15,9 +18,13 @@ hr		{border-color:#000000;
 }
 			
 .logo {margin-top:10px;
+	   text-align:center;
+	   background: linear-gradient(#0F181E, #30383D); 
+	   height:50%;
+	   
 }
 
-.content {background-color:#DBD2E0;
+.content {background-color:#434F56;
 		height:100%;
 		margin-left:5px;
 		width: 77%;
@@ -27,6 +34,7 @@ hr		{border-color:#000000;
 .menubar {background-color:#364670;
 		  padding: 10px 10px 0px 0px;
 		  width: 20%;
+		  text-align:center;
 		  
 }
 
@@ -34,14 +42,21 @@ hr		{border-color:#000000;
 }
 
 .ad {width:95%;
-	padding: 0px 0px 5px 0px;
+	padding: 0px 0px 5px 20px;
 }
 
 .maintext {background-color:#EDEDED;
 			height:20em;
 			margin:10px 10px 25px 10px;
 			border-color:#DBD2E0;
+			text-align:center;
+}
+
+.maintext a:link {color:#000000;
+}
+.maintext a:hover {color:#0000FF;
 }
 
 .footer {margin:10px;
+		text-align:center;
 }
