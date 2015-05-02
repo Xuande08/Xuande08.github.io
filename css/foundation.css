@@ -235,8 +235,7 @@ dl {
   list-style-position: outside;
   margin-bottom: 1.25rem; }
 
-ul {
-  margin-left: 1.1rem; }
+
 
 
 /* Unordered Lists */
@@ -247,12 +246,7 @@ ul li ol {
 
 
 /* Ordered Lists */
-ol {
-  margin-left: 1.4rem; }
-  ol li ul,
-  ol li ol {
-    margin-left: 1.25rem;
-    margin-bottom: 0; }
+
 
 /* Definition Lists */
 dl dt {
