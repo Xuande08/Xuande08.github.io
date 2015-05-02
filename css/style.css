@@ -94,7 +94,7 @@ button:active {
 			margin:10px 10px 25px 10px;
 			border-color:#DBD2E0;
 			text-align:center;
-			padding:0px 5px;]
+			padding:0px 5%;]
 }
 
 p {display:inline-block;
@@ -103,13 +103,25 @@ p {display:inline-block;
 .maintext p{font-size:16pt;
 }
 
-.maintext a:link {color:#000000;
+.maintext a:link {color:#666666;
 }
-.maintext a:hover {color:#0000FF;
+
+.maintext a:visited {color:#666666;
+}
+
+.maintext a:hover {color:#CCCCCC;
+}
+
+.maintext a:active {color:#666666;
 }
 
 .footer {margin:10px;
 		text-align:center;
 		color:#FFFFFF;
-		
+}
+
+footer  a:link {color:#CCCCCC;
+}
+
+footer a:hover {color:#FFFFFF;
 }
