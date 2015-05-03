@@ -10,7 +10,7 @@ hr		{border-color:#000000;
 			
 }
 
-button {
+.maintext button {
   border: 0;
   background: #0087cc;
   border-radius: 4px;
@@ -23,42 +23,45 @@ button {
   padding: 12px 20px;
   transition: all .1s linear;
 }
-button:active {
+.maintext button:active {
   box-shadow: 0 2px 0 #006599;
   transform: translateY(3px);
 }
 
 
-.menubar {background-color:#434F56;
-		  padding: 10px 10px 0px 10px;
-		  width: 20%;
-		  text-align:center;
-		  height:100%;
-		  display:inline-block;
+.everyother  li:nth-child(odd){background-color:#2D3336;
 }
-
-.menubar  li:nth-child(odd){background-color:#2D3336;
+.everyother	li:nth-child(even){background-color:#12212A;
 }
-.menubar li:nth-child(even) {background-color:#12212A;
-}
-.menubar ul {list-style-type:none;
+.everyother ul {list-style-type:none;
 			font-size:18pt;
+			margin:0 0 10px 0;
 }
-.menubar	a {color:#FFFFFF;
+.everyother	a {color:#FFFFFF;
 }
 
-.menubar li:hover{background-color:#445561;
+.everyother li:hover{background-color:#445561;
 }
-			
+
+.nav {padding: 0 50% 0 50%;
+}
+
+
+
+
+
+
+
+
 .logo {margin-top:10px;
 	   text-align:center;
 	   background: linear-gradient(#0F181E, #30383D); 
 	   overflow-y:hidden;
-	 height:25%;
+	 height:20%;
 	   
 }
 
-.logo img{height:85%;
+.logo img{height:100%;
 		width:80%;
 		}
 
@@ -71,6 +74,14 @@ button:active {
 		margin-left:5px;
 		width: 77%;
 		float:right;
+}
+
+.menubar {background-color:#434F56;
+		  padding: 10px 10px 10px 10px;
+		  text-align:center;
+		  height:100%;
+		  display:inline-block;
+		  width:20%;
 }
 
 
