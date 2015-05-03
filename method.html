@@ -93,22 +93,37 @@ random_imglink()
 			<b>Participants</b><br /><br />
 
 		
-	<div class="slideshow">
+	<div class="bss-slides">
 	<figure>
-		<img src="img/brother.png" />
+		<img src="img/chamber.jpg" />
 		<figcaption>ITS A CAPTION</figcaption>
 	</figure>
 	<figure>
-		<img src="img/joe.png" />
+		<img src="img/hair.jpg" />
+		<figcaption>ITS A CAPTION</figcaption>
+	</figure>
+	<figure>
+		<img src="img/fit.jpg" />
+		<figcaption>ITS A CAPTION</figcaption>
+	</figure>
+	<figure>
+		<img src="img/merc.jpg" />
 		<figcaption>ITS A CAPTION</figcaption>
 	</figure>
 </div>	
 	
 <script>
-    makeBSS('.slideshow');
+var opts = {
+    auto : {
+        speed : 3500, 
+        pauseOnHover : true
+    },
+    fullScreen : false, 
+    swipe : true
+};
+makeBSS('.bss-slides', opts);
+
 </script>			
-			
-			
 			
 			
 <p>&nbsp &nbsp &nbsp &nbsp Residents of Liberty and Excelsior Springs, Missouri were asked to participate in our survey. 
