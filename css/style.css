@@ -43,8 +43,11 @@ hr		{border-color:#000000;
 .everyother li:hover{background-color:#445561;
 }
 
-.nav {padding: 0 50% 0 50%;
+.everyother ul {display:inline-block;
 }
+
+
+
 
 
 
