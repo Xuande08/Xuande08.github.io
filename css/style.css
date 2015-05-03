@@ -46,8 +46,12 @@ hr		{border-color:#000000;
 .everyother ul {display:inline-block;
 }
 
+.menubutton {width:20em;
+			text-align:left;
+}
 
-
+.everyother {overflow-x:hidden;
+}
 
 
 
