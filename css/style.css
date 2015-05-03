@@ -137,7 +137,7 @@ footer  a:link {color:#CCCCCC;
 footer a:hover {color:#FFFFFF;
 }
 
-@media (max-width:1500px) {
+@media (max-width:800px) {
 .content {
 		width:100%;
 }
@@ -145,7 +145,8 @@ footer a:hover {color:#FFFFFF;
 		padding-bottom:0px;
 }
 
-.ad {width:0%;
+.ad {display:none;
+	width:0%;
 	height:0%;
 	padding:0px;}
 
