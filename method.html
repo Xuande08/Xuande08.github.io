@@ -6,7 +6,9 @@
     <title>Well-being survey</title>
 	    <link rel="stylesheet" href="css/foundation.css" />
 	  <link rel="stylesheet" href="css/style.css" />
+	  <link rel="stylesheet" href="css/simple-slideshow-styles.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/better-simple-slideshow.js"</script>
   </head>
   <body>
     <div class="logo">
@@ -16,6 +18,61 @@
     <hr />
 
     <div class="body">    
+	
+	<div class="menubar everyother"> 
+      <ul align="center">
+          <li><a href="index.html"><div class="menubutton">Home</div></a></li>
+		  <li><a href="background.html"><div class="menubutton">Background</div></a></li>
+		   <li><a href="means.html"><div class="menubutton" >Means of Measurement</div></a></li>
+          <li><a href="method.html"><div class="menubutton" id="active">Our Method</div></a></li>
+          <li><a href="http://goo.gl/forms/NqtwGpPFYD"><div class="menubutton">&nbspWell-Being Survey&nbsp</div></a></li>
+          <li><a href="results.html"><div class="menubutton">Results</div></a></li>
+        </ul>
+         
+		    <div class="ad" align="center">
+          <p><script language="JavaScript">
+<!--
+
+/*
+Random Image Link Script- By JavaScript Kit(http://www.javascriptkit.com) 
+Over 200+ free JavaScripts here!
+Updated: 00/04/25
+*/
+
+function random_imglink(){
+var myimages=new Array()
+//specify random images below. You can have as many as you wish
+myimages[1]="img/joe.png"
+myimages[2]="img/read.jpg"
+myimages[3]="img/billbillbill.jpg"
+myimages[4]="img/knowledge.jpg"
+myimages[5]="img/knowledge.jpg"
+myimages[6]="img/read.jpg"
+
+//specify corresponding links below
+var imagelinks=new Array()
+imagelinks[1]=""
+imagelinks[2]=""
+imagelinks[3]=""
+imagelinks[4]=""
+imagelinks[5]=""
+imagelinks[6]=""
+
+var ry=Math.floor(Math.random()*myimages.length)
+if (ry==0)
+ry=1
+document.write('<a href='+'"'+imagelinks[ry]+'"'+'><img src="'+myimages[ry]+'" border=0></a>')
+}
+random_imglink()
+//-->
+</script>
+
+</p>
+        </div>
+        
+      </div>
+	  
+	  
       <div class="content">
         <div class="headertext">  
           <h3>Methodology<small><br />How the survey was performed</small></h3>
@@ -34,6 +91,25 @@
 <hr />
 			
 			<b>Participants</b><br /><br />
+<script>
+    makeBSS('.slideshow-class-goes-here');
+</script>	
+		
+	<div class="slideshow">
+	<figure>
+		<img src="img/brother.png" />
+		<figcaption>ITS A CAPTION</figcaption>
+	</figure>
+	<figure>
+		<img src="img/joe.png" />
+		<figcaption>ITS A CAPTION</figcaption>
+	</figure>
+</div>	
+			
+			
+			
+			
+			
 			
 <p>&nbsp &nbsp &nbsp &nbsp Residents of Liberty and Excelsior Springs, Missouri were asked to participate in our survey. 
 Our researchers distributed paper surveys individually in popular retail establishments within each city and electronically with the help of the Excelsior Springs Chamber of Commerce. 
@@ -94,58 +170,7 @@ This provides a simple way to see which city has a greater amount of satisfactio
 			</div>
       </div>
 
-      <div class="menubar everyother"> 
-      <ul align="center">
-          <li><a href="index.html"><div class="menubutton">Home</div></a></li>
-		  <li><a href="background.html"><div class="menubutton">Background</div></a></li>
-		   <li><a href="means.html"><div class="menubutton" >Means of Measurement</div></a></li>
-          <li><a href="method.html"><div class="menubutton" id="active">Our Method</div></a></li>
-          <li><a href="http://goo.gl/forms/NqtwGpPFYD"><div class="menubutton">&nbspWell-Being Survey&nbsp</div></a></li>
-          <li><a href="results.html"><div class="menubutton">Results</div></a></li>
-        </ul>
-         
-		    <div class="ad" align="center">
-          <p><script language="JavaScript">
-<!--
-
-/*
-Random Image Link Script- By JavaScript Kit(http://www.javascriptkit.com) 
-Over 200+ free JavaScripts here!
-Updated: 00/04/25
-*/
-
-function random_imglink(){
-var myimages=new Array()
-//specify random images below. You can have as many as you wish
-myimages[1]="img/joe.png"
-myimages[2]="img/read.jpg"
-myimages[3]="img/billbillbill.jpg"
-myimages[4]="img/knowledge.jpg"
-myimages[5]="img/knowledge.jpg"
-myimages[6]="img/read.jpg"
-
-//specify corresponding links below
-var imagelinks=new Array()
-imagelinks[1]=""
-imagelinks[2]=""
-imagelinks[3]=""
-imagelinks[4]=""
-imagelinks[5]=""
-imagelinks[6]=""
-
-var ry=Math.floor(Math.random()*myimages.length)
-if (ry==0)
-ry=1
-document.write('<a href='+'"'+imagelinks[ry]+'"'+'><img src="'+myimages[ry]+'" border=0></a>')
-}
-random_imglink()
-//-->
-</script>
-
-</p>
-        </div>
-        
-      </div>
+      
 	  </div>
     <footer>
       <div class="footer">
