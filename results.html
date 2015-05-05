@@ -9,6 +9,41 @@
 	  <link rel="stylesheet" href="css/simple-slideshow-styles.css" />
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/better-simple-slideshow.js"></script>
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["table"]});
+      google.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Question');
+ 
+        data.addColumn('boolean', 'Enjoy Living in City');
+		data.addColumn('boolean', 'Would not move given the opportunity');
+		data.addColumn('boolean', 'Plan to stay most of my life');
+		data.addColumn('boolean', 'Satisfied overall');
+		
+        data.addRows([
+          ['Children and Family feel safe walking alone',true,true,false,true],
+		  ['Education Level',true,false,false,true],
+		  ['Trust Neighbors',true,false,false,true],
+		  ['Groceries in Town',true,false,false,true],
+		  ['Shopping in Town',true,false,false,true],
+		  ['Approval of Schools&#39; Education Classes',true,false,false,true],
+		  ['Safe Walking Alone',false,true,false,true],
+		  ['Not worrying about stolen property',false,false,true,true]
+  
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true});
+      }
+    </script>
+	
+	
+	
   </head>
   <body>
     <div class="logo">
@@ -76,7 +111,7 @@ random_imglink()
 	  
       <div class="content">
         <div class="headertext">  
-          <h3>Results and Assessment </h3>
+          <h3>Results</h3>
         </div>
 
 		    <div class="maintext" id="top">
@@ -84,99 +119,48 @@ random_imglink()
 	<p>
 	<b>Results and Recommendations</b><br />
 	<br />
-&nbsp &nbsp &nbsp &nbsp According to the data from our surveys, residents of Liberty are happier with their city and have better quality of life on our five life factors than residents of Excelsior Springs. Of the thirty-nine items that measured satisfaction with or quality of life in the participant’s city, thirty-six had better average ratings from Liberty residents, one was equal for both cities, and two had slightly better averages from Excelsior Springs.
-<img src="img/chart1.png" width="100%" />
+&nbsp &nbsp &nbsp &nbsp According to the data from our surveys, residents of Liberty are happier with their city and have better quality of life on our five life factors than residents of Excelsior Springs.
+ Of the thirty-nine items that measured satisfaction with or quality of life in the participant&#39;s city, thirty-six had better average ratings from Liberty residents, one was equal for both cities, and two had slightly better averages from Excelsior Springs.
+</p>
+ <br />
 <br />
-<img src="img/chart2.png" />
+ <a href="img/chart1.png"><img src="img/chart1.png" width="50%" height="50%" /></a>
 <br />
+<a href="img/chart2.png"><img src="img/chart2.png" width="50%" height="50%"/></a>
+<br />
+<p>&nbsp &nbsp &nbsp &nbsp 
+Four items directly measured participants&#39; happiness with their city.
+ Beyond measuring which items had significantly higher averages in Liberty participants as mentioned above, 
+ we looked for items that significantly correlated with these four direct measures regardless of city in order to determine which of our variables might most effect happiness and satisfaction with life in one&#39;s city.
+ </p>
 
-Four items directly measured participants’ happiness with their city. Beyond measuring which items had significantly higher averages in Liberty participants as mentioned above, we looked for items that significantly correlated with these four direct measures regardless of city in order to determine which of our variables might most effect happiness and satisfaction with life in one’s city.
+<b>
+Correlations with direct measures of happiness, p = .001  <br /><br />
+</b>
+<div id="table_div">
+
+</div>
+
+<p><br />
 
 
-Correlations with direct measures of happiness, p = .001
-<img src="img/chart3.png" />
 <br />
 Seven other variables correlated only with enjoying the city: low frequency of crime, generous and helpful people, ideal living situation, not minding to drive for entertainment, quality of school electives, entertainment in the town, and residence close to stores, schools, and jobs.
 
 Interestingly, four of our five measured qualities (health, safety, resources, entertainment, and education) are represented in these correlations. . Only health is not represented; however, our study only included three items related to health, so this quality may not have been adequately measured, and the importance of physical education classes may be related to the importance of physical health. Based on these measures, what would most increase well-being in these cities, or presumably in any city, would be decreasing crime against individuals and property and fostering trusting relationships between neighbors. Encouraging citizens to continue education beyond high school and creating more and better grocery, clothing, and accessory shopping options in town should also increase satisfaction among residents.
 
-When looking independently at the combined item averages of each category of variable, residents of both cities were most satisfied with their availability of resources (L = 4.14, E = 3.62) and least satisfied with their entertainment quality (L = 3.52, E = 2.97). Combined averages for the other three categories were as follows: Health: L = 4.10, E = 3.53; Safety: L = 3.92, E = 3.04; Education: L = 3.90, E = 3.61. In addition to entertainment, then, Liberty could most improve its qualities of education and safety while Excelsior Springs could most improve its qualities of safety and health. More research with residents would be helpful in determining specific steps to take to improve these qualities and increase average residents’ well-being.
+When looking independently at the combined item averages of each category of variable, residents of both cities were most satisfied with their availability of resources (L = 4.14, E = 3.62) and least satisfied with their entertainment quality (L = 3.52, E = 2.97). Combined averages for the other three categories were as follows: Health: L = 4.10, E = 3.53; Safety: L = 3.92, E = 3.04; Education: L = 3.90, E = 3.61. In addition to entertainment, then, Liberty could most improve its qualities of education and safety while Excelsior Springs could most improve its qualities of safety and health. More research with residents would be helpful in determining specific steps to take to improve these qualities and increase average residents&#39; well-being.
 </p>
-<p> 
-<b>Assessment of the Process</b><br />
-<br />
-In designing the study on the well-being of Liberty and Excelsior Springs, Missouri, it was important to us that we analyze the attitudes of the members of the respective communities. 
-To this end, we collected surveys gathering data on five main criteria: health, safety, availability of resources, education, and entertainment. 
-</p>
-<p>
-These criteria are related to the ideas discussed in the books by Charles Wheelan (2010), Bill McKibben (2007), and Sissela Bok (2010). 
-From Wheelan, we gathered that community members should have access to health care, safety resources and education which would give them the capabilities to pursue their own form of well-being.
- McKibben led us to ask a few questions on the locality of resources—how far did people have to go in order to get the resources they desired? 
- McKibben is very community oriented, and we wanted to know if Liberty and Excelsior, although far from having a local economy, could at least provide rudimentary resources within their own city limits. 
- We also asked our subjects a few questions on wealth, wondering if they felt that a higher income was directly correlated to higher levels of happiness, an issue which Sissela Bok delves into in her book, Exploring Happiness: From Aristotle to Brain Science. 
- Finally, we chose to add questions on entertainment, as we were targeting a very wide age group and felt that younger subjects would particularly value this aspect. 
-</p>
-<p>
- Upon further inspection of our process, there are several other areas we would have liked to explore. 
-Bok (2010) devotes much of her book to the issue of depression and avenues people have taken to combat depression, such as illusion/delusion and community service and investing in something other than the self. 
-Had we included these aspects, we believe the process would have been more complete and the data a bit more telling of the well-being of both municipalities.
-</p>
-<p>
-Wheelan (2010) introduced us to the concept of capability. The more “information” community members have, the more capable they are of pursuing well-being (p. 108). 
-According to Wheelan, individuals are primarily interested in the self, working to better their own economic situation before thinking of anyone else’s. 
-Access to information makes this endeavor more fruitful, as the individual is better equipped to pursue their version of well-being. 
-Thus, in this case, information refers to anything that would offer an advantage to the individual in the market.
- Wheelan gives the example of a person buying a used car—knowing what to look for better equips the buyer to make the best investment possible.  
- The same goes for accessing healthcare and wrestling with insurance companies.
- While we asked our subjects if they were satisfied with their area’s schools and healthcare resources (as far as quality and variety), we failed to assess the reach of information in the two municipalities. 
- Even if there are a variety of good schools and healthcare resources, lack of information might limit an individual’s access.
-</p>
-<p>
-We met several different types of communities in Bill McKibben’s book, Deep Economy (2007), all of which shared the aspect of a deep-rooted sense of connectedness. 
-Whether it was the ingeniousness of Curitiba in Brazil or the sustainable town in Gorasin, McKibben’s examples always encouraged the reader to seek out places that were resourceful on their own. 
-Both Liberty and Excelsior Springs rely on huge corporations such as Wal-Mart and HYVEE for their resources. 
-In hindsight, the survey should have included questions regarding community-oriented resources such as farmer’s markets or food drives done in each municipality in order to better discern whether there is a sense of commitment to community in either town.
- McKibben argues that the self has completely overwhelmed society, so that now we are not communities but rather “hyper-individualists” (p. 97). 
- Both Excelsior Springs and Liberty are suburban cities, so even if they were generally neutral on the topic of whether they worried about their property being stolen, this is likely due more to the fact that their property is not easily accessible to most of the people around them rather than to a sense of trust or relationships with their neighbors.
- If McKibben were analyzing these two municipalities, he might be concerned, as we are, that there was not a higher level of trust among participants and their neighbors.
-</p>
-<p>
- Bok’s book, Exploring Happiness (2010), offers a history on research done on the definition of happiness and how to achieve it. 
- From Bok we learn that “people regularly report being happier in societies that enjoy high standards of living” (p. 142). 
-We asked our subjects if they felt that their happiness depended on their income, but according to Bertrand Russel as cited by Bok, “The most basic form of happiness is available to human beings…regardless of their level of education, so long as they enjoy health and physical vigor, loving relationships, and a sense of achievement in life, of overcoming obstacles” (p. 134).
- Along with asking our subjects if they felt that their happiness was directly correlated with their income, we also should have asked more questions that probed the ability of the municipality to provide spaces to further their health as well as places to build lasting relationships. 
- These types of places would include gyms, community centers, parks, and as previously mentioned, farmer’s markets and other community driven events.
-Bok (2010) also touches on the issues of illusion and delusion in the pursuit of happiness.
- Bok gives us Lycas as an example, who was completely happy but was under the illusion that theatrical performances were constantly being performed around him. 
- While Lycas was immensely happy in his delusion, his family found the situation troubling.
- In light of this, we could have asked participants about their perception of the ability of their friends and family to be happy within their city (provided as it was the same as the participant’s own). 
- Such questions might have provided insight as to whether happiness and satisfaction within each city could be attributed to illusion.
-</p>
-<p>
- Another of Bok’s (2010) considerations is religion, especially Christianity in the Western world, which can be discussed in terms of an illusion that makes people feel a sense of purpose and understand their place in the world.
-We did not ask a single question on religion in our survey, which we see as a vast oversight considering illusion was one of the main avenues to happiness discussed by Bok.
- Community members might derive their happiness from their respective illusions, in which case the availability of, say, a church in which to practice a religion would be a priority when choosing a place to live.
- Finally, Bok cites Seneca, who essentially promotes the renunciation of the self and even of hyper-individualism.
- Seneca writes that being kind to others without expecting anything in return is one way of bringing “peace and harmony of the soul” (p. 62).
- Community service is a prime example of this sort of behavior, and further studies should include questions on the opportunities for community service in the two municipalities. 
-</p>
-<p>
-In conclusion, our process included several key issues of well-being as delineated by Wheelan (2010), Mckibben (2007), and Bok (2010).
- These include access to information, access to resources locally, and the issue of the necessity of wealth for the achievement of happiness.
- Upon inspection of our process, which consisted of surveys distributed to members of the two municipalities, there are several other areas which would have been productive to explore in determining the cities’ respective levels of well-being.
- These include analyzing the reach of the information available in both municipalities, analyzing the respective levels of community oriented behaviors, and evaluating the access to illusions such as religion (in the form of churches and other areas of worship).
- By adding these factors, we feel our process would have been more well-rounded and would have accurately fit what we have learned of well-being from our readings.
- Despite these shortcomings, our study still adequately covered the five factors of health, safety, resource availability, entertainment, and education, finding that lack of quality entertainment and higher crime rates are the main qualities that make residents of Excelsior Springs less satisfied with their city than residents of Liberty.
- </p>
-	
-	
-	
+
+
 	
 			</div>
-      </div>
+	</div>
 
       
-	  </div>
+ </div>
+ 
+ 
     <footer>
       <div class="footer">
         <hr /> 
