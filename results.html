@@ -17,6 +17,7 @@
 
       function drawTable() {
         var data = new google.visualization.DataTable();
+		
         data.addColumn('string', 'Question');
  
         data.addColumn('boolean', 'Enjoy Living in City');
@@ -30,7 +31,7 @@
 		  ['Trust Neighbors',true,false,false,true],
 		  ['Groceries in Town',true,false,false,true],
 		  ['Shopping in Town',true,false,false,true],
-		  ['Approval of Schools&#39; Education Classes',true,false,false,true],
+		  ['Approval of Schools Education Classes',true,false,false,true],
 		  ['Safe Walking Alone',false,true,false,true],
 		  ['Not worrying about stolen property',false,false,true,true]
   
@@ -38,7 +39,7 @@
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
 
-        table.draw(data, {showRowNumber: true});
+        table.draw(data, {showRowNumber: false} );
       }
     </script>
 	
@@ -137,8 +138,8 @@ Four items directly measured participants&#39; happiness with their city.
 <b>
 Correlations with direct measures of happiness, p = .001  <br /><br />
 </b>
-<div id="table_div">
 
+<div id="table_div" align="center">
 </div>
 
 <p><br />

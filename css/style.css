@@ -137,9 +137,11 @@ footer  a:link {color:#CCCCCC;
 footer a:hover {color:#FFFFFF;
 }
 
-#table_div {text-align:left;
+#table_div {text-align:center;
 }
+.bss-slides {background-color:#999999;
 
+}
 
 
 @media (max-width:800px) {
