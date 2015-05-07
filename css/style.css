@@ -147,7 +147,10 @@ footer a:hover {color:#FFFFFF;
 
 }
 
-
+.blockquote {color:#999999;
+padding: 0 10% 0 10%;
+font-size:18pt;
+}
 
 @media (max-width:800px) {
 .content {
